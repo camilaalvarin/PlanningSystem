@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.logo {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 5rem;
+}
+.sub{
+    width: 70%;
+}
+.text{
+    margin-top: 2rem;
+}
+.subText {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 5.4rem;
+    margin-top: 2rem;
+}
