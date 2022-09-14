@@ -1,0 +1,36 @@
+.boxLogin{
+    width: 430px;
+    z-index: 1;
+    .cajaLogoLogin{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 35px;
+        width: 295px;
+        .logoLogin{
+            width: 109.45px;
+            margin-bottom: 35px;
+        }
+        .textLogo{
+            width: 295px;
+        }
+
+    }
+    .subTextLogin{
+        width: 430px;
+        margin-bottom: 35px;
+        /* Bold/Subtitle */
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.375rem;
+        line-height: 30px;
+        /* or 136% */
+
+        letter-spacing: 0.15px;
+
+        color: #000000;
+    }
+
+}

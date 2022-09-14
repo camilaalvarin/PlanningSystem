@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 import './App.css'
+import  'bootstrap/dist/css/bootstrap.min.css'
 import { Navbar } from './components/Navbar/Navbar'
 import { Footer } from './components/Footer/Footer'
 import { Logo } from './components/Logo/Logo'
@@ -14,6 +15,7 @@ import RestorePassword from './components/Login/RestorePassword'
 import RecoverySuccess from './components/Login/RecoverySuccess'
 import Login from './components/Login/Login'
 import ChangePassword from './components/Login/ChangePassword'
+
 
 
 // import { BrowserRouter, Routes as Router } from 'react-router-dom'

@@ -1,0 +1,23 @@
+
+.mainLogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: radial-gradient(#ffffffaf , #ffffffaf ) ,url(../../assets/BG.svg);
+    background-size: contain;
+    height: 100vh;
+    .cardLogin{
+        /* Card */
+        width: 446px;
+        height: 505px;
+
+
+        /* Values/White */
+        background: #FFFFFF;
+        /* Standart Shadow */
+        box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.08);
+        border-radius: 15px;
+
+    }
+}

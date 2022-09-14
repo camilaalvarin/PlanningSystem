@@ -1,10 +1,22 @@
 import React from 'react';
+import { Footer } from '../Footer/Footer';
+import AllLogin from './AllLogin';
+
 
 const ChangePassword = () => {
     return (
-        <div>
-            jhjh
-        </div>
+        <>
+        <main className=''>
+            <AllLogin/>
+            <div className=''>
+
+            </div>
+
+        </main>
+        
+
+        <Footer/>
+        </>
     );
 }
 
