@@ -4,6 +4,8 @@ import styles from './Login.module.scss'
 //import Eye from '../../assets/Eye.svg'
 import AllLogin from './AllLogin';
 import { NavLink } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 
 
 const Login = () => {
@@ -12,28 +14,32 @@ const Login = () => {
             <main className={styles.mainLogin}>
                 <AllLogin/>
                 <div className={styles.cardLogin}>
-                    <form className={styles.formLogin}>
+                    <Form className={styles.formLogin}>
                         <h3 className={styles.titleLogin}>
                             Login
                         </h3>
-                        <div className={styles.boxInputsLogin}>
-                            <label for='email'>E-mail</label>
-                            <input id='email' type='email' placeholder='example@yahoo.com'></input>
-                        </div>
-                        <div className={styles.boxInputsLogin}>
-                            <label for='password'>Password</label>
-                            <input id='password' type='password'></input>
-                        </div>
-                        <div className={styles.checkboxLogin}>
-                            <input type='checkbox'></input>
-                            <h5 className={styles.childCheckboxLogin}>Keep me logged in</h5>
-                        </div>
-                        <button type='submit' className={styles.buttonLogin}>
+                        <Form.Group className={styles.boxInputsLogin}>
+                            <Form.Label for='email'>E-mail</Form.Label>
+                            <Form.Control type='email' placeholder='example@yahoo.com'></Form.Control>
+                            <Form.Text id='email' ></Form.Text>
+                        </Form.Group>
+
+                        <Form.Group className={styles.boxInputsLogin}>
+                            <Form.Label for='password'>Password</Form.Label>
+                            <Form.Control type='password'></Form.Control>
+                            <Form.Text id='password'></Form.Text>
+                        </Form.Group>
+
+                        <Form.Group className={styles.checkboxLogin}>
+                            <Form.Check type='checkbox' label='Keep me logged in' className={styles.childCheckboxLogin}></Form.Check>
+                        </Form.Group>
+                        
+                        <Button type='submit' className={styles.buttonLogin}>
                             Login
-                        </button>
+                        </Button>
                         <NavLink to='/restorepassword' className={styles.restoreLogin}>Forgot my password</NavLink>
                         
-                    </form>
+                    </Form>
 
                 </div>
 
