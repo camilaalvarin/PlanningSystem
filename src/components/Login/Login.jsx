@@ -13,20 +13,20 @@ const Login = () => {
         <>  
             <main className={styles.mainLogin}>
                 <AllLogin/>
-                <div className={styles.cardLogin}>
+                <div className={`${styles.cardLogin} ${styles.cardLoginOk}`}>
                     <Form className={styles.formLogin}>
                         <h3 className={styles.titleLogin}>
                             Login
                         </h3>
                         <Form.Group className={styles.boxInputsLogin}>
                             <Form.Label for='email'>E-mail</Form.Label>
-                            <Form.Control type='email' placeholder='example@yahoo.com'></Form.Control>
+                            <Form.Control type='email' placeholder='example@yahoo.com' className={styles.input}></Form.Control>
                             <Form.Text id='email' ></Form.Text>
                         </Form.Group>
 
                         <Form.Group className={styles.boxInputsLogin}>
                             <Form.Label for='password'>Password</Form.Label>
-                            <Form.Control type='password'></Form.Control>
+                            <Form.Control type='password' className={styles.input}></Form.Control>
                             <Form.Text id='password'></Form.Text>
                         </Form.Group>
 
