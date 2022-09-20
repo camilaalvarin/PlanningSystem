@@ -24,15 +24,16 @@ const Login = () => {
                             <Form.Text id='email' ></Form.Text>
                         </Form.Group>
 
-                        <Form.Group className={styles.boxInputsLogin}>
-                            <Form.Label for='password'>Password</Form.Label>
-                            <Form.Control type='password' className={styles.input}></Form.Control>
-                            <Form.Text id='password'></Form.Text>
-                        </Form.Group>
-
-                        <Form.Group className={styles.checkboxLogin}>
-                            <Form.Check type='checkbox' label='Keep me logged in' className={styles.childCheckboxLogin}></Form.Check>
-                        </Form.Group>
+                        <div>
+                            <Form.Group className={styles.boxInputsLogin}>
+                                <Form.Label for='password'>Password</Form.Label>
+                                <Form.Control type='password' className={styles.input}></Form.Control>
+                                <Form.Text id='password'></Form.Text>
+                            </Form.Group>
+                            <Form.Group className={styles.checkboxLogin}>
+                                <Form.Check type='checkbox' label='Keep me logged in' className={styles.childCheckboxLogin}></Form.Check>
+                            </Form.Group>
+                        </div>
                         
                         <Button type='submit' className={styles.buttonLogin}>
                             Login
