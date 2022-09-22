@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
 import { Footer } from '../Footer/Footer';
 import styles from './Login.module.scss'
-//import Eye from '../../assets/Eye.svg'
+import Eye from '../../assets/Eye.svg'
 import AllLogin from './AllLogin';
 import { NavLink } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import { Form } from 'react-bootstrap';
+import Eyeslash from '../../assets/eye-slash.svg'
 
 
 const Login = () => {
@@ -32,6 +33,11 @@ const [ShowPwd, setShowPwd] = useState(false);
                                 <Form.Control type={ShowPwd ? 'text' : 'password'} className={styles.input}></Form.Control>
                                 <Form.Text id='password'></Form.Text>
                             </Form.Group>
+                            <img src={ShowPwd ? Eye : Eyeslash} 
+                                    onClick={() => setShowPwd(!ShowPwd)}
+                                    className={`${styles.eye} ${styles.eyeLogin}`}
+                                    ></img>
+                                    
                             <Form.Group className={styles.checkboxLogin}>
                                 <Form.Check type='checkbox' label='Keep me logged in' className={styles.childCheckboxLogin}></Form.Check>
                             </Form.Group>

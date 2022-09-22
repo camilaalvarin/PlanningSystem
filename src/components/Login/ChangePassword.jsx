@@ -18,9 +18,14 @@ const [ShowPwd2, setShowPwd2] = useState(false);
                 <AllLogin/>
                 <div className={`${styles.cardLogin} ${styles.cardLoginOk}`}>
                     <Form className={styles.formLogin}>
-                        <h3 className={styles.titleLogin}>
-                            Please type the new password
-                        </h3>
+                        <div>
+                            <h3 className={`${styles.titleLogin} ${styles.titleChange}`}>
+                                Please type
+                            </h3>
+                            <h3 className={`${styles.titleLogin} ${styles.titleChange}`}>
+                                the new password
+                            </h3>
+                        </div>
 
                         <h4 className={styles.subtitleChange}>
                         Please enter a new password twice to very that you entered it correctly 
@@ -41,7 +46,6 @@ const [ShowPwd2, setShowPwd2] = useState(false);
                             <Form.Group className={styles.boxInputsLogin}>
                                 <Form.Label for={ShowPwd2 ? 'text' : 'password'}>Repeat Password</Form.Label>
                                 <Form.Control type={ShowPwd2 ? 'text' : 'password'} className={styles.input} placeholder='Repeat your password'></Form.Control>
-            
                                 <Form.Text id='password'></Form.Text>
                             </Form.Group>
                             <img src={ShowPwd2 ? Eye : Eyeslash} 

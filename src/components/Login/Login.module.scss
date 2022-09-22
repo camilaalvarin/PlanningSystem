@@ -13,8 +13,8 @@
     }
     .cardLoginOk{
                 /* Card */
-                width: 446px;
-                height: 505px;        
+                width: 40%;
+                height: 80%;        
     }
     .cardChangeOk{
         width: 445.69px;
@@ -39,8 +39,8 @@
         .formLogin{
             display: flex;
             flex-direction: column;
-            height: 505px;
-            width: 379px;
+            height: 100%;
+            width: 100%;
             justify-content:space-evenly;
             align-items: center;
             padding-top: 30px;
@@ -61,21 +61,22 @@
                 /* Main/Magenta Dark */
                 color: #EE268F;
             }
+            
             .eye{
                 width: 16.2px;
             }
             .eyeChange1{
                 position: absolute;
-                top: 50.5%;
+                top: 49.5%;
                 left: 88%;
             }
             .eyeChange2{
                 position: absolute;
-                top: 66.5%;
+                top: 62.5%;
                 left: 88%;
             }
             .titleChange{
-                width: 180px;
+                width: 100%;
                 text-align: center;
             }
             .subtitleChange{
@@ -251,4 +252,12 @@
 
         }
     }
+}
+.eye{
+    width: 16.2px;
+}
+.eyeLogin{
+    position: absolute;
+    top: 48%;
+    left: 88%;
 }
