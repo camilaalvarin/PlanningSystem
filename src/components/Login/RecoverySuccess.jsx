@@ -11,7 +11,7 @@ const RecoverySuccess = () => {
 <>  
             <main className={styles.mainLogin}>
                 <AllLogin/>
-                <div className={`${styles.cardLogin} ${styles.cardChangeOk}`}>
+                <div className={`${styles.cardLogin} ${styles.cardRecoveryOk}`}>
                     <Form className={styles.formLogin}>
                         <h3 className={`${styles.titleLogin} ${styles.titleChange}`}>
                             Password reset is complete!

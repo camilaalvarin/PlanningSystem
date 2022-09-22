@@ -18,6 +18,11 @@
     }
     .cardChangeOk{
         width: 445.69px;
+        height: 528.61px;
+    }
+
+    .cardRecoveryOk{
+        width: 445.69px;
         height: 437.86px
     }
     .cardLogin{
@@ -56,9 +61,39 @@
                 /* Main/Magenta Dark */
                 color: #EE268F;
             }
+            .eye{
+                width: 16.2px;
+            }
+            .eyeChange1{
+                position: absolute;
+                top: 50.5%;
+                left: 88%;
+            }
+            .eyeChange2{
+                position: absolute;
+                top: 66.5%;
+                left: 88%;
+            }
             .titleChange{
                 width: 180px;
                 text-align: center;
+            }
+            .subtitleChange{
+                width: 281px;
+
+                /* Regular/Body Text */
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                /* or 125% */
+                text-align: center;
+
+                /* Values/Soot */
+                color: #121317;
+
+
             }
             .titleRestoreOk{
                 padding-bottom: 30px;
@@ -172,11 +207,28 @@
                 border-radius: 40px;
                 text-decoration: none;
                 .textButton{
-                    color: #FFFFFF;
+                    /*color: #FFFFFF;
                     font-family: 'Montserrat';
                     font-style: normal;
                     font-weight: 600;
-                    font-size: 14px;
+                    font-size: 14px;*/
+
+                /* Button/14px */
+                background: #F60C87;
+                border: none;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 16px;
+                /* identical to box height, or 114% */
+                letter-spacing: 1.25px;
+                text-transform: uppercase;
+
+                /* Values/White */
+                color: #FFFFFF;
+
+
 
                 }
 

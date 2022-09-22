@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Footer } from '../Footer/Footer';
 import styles from './Login.module.scss'
 //import Eye from '../../assets/Eye.svg'
@@ -9,6 +9,8 @@ import { Form } from 'react-bootstrap';
 
 
 const Login = () => {
+const [ShowPwd, setShowPwd] = useState(false);
+
     return (
         <>  
             <main className={styles.mainLogin}>
@@ -26,8 +28,8 @@ const Login = () => {
 
                         <div>
                             <Form.Group className={styles.boxInputsLogin}>
-                                <Form.Label for='password'>Password</Form.Label>
-                                <Form.Control type='password' className={styles.input}></Form.Control>
+                                <Form.Label for={ShowPwd ? 'text' : 'password'}>Password</Form.Label>
+                                <Form.Control type={ShowPwd ? 'text' : 'password'} className={styles.input}></Form.Control>
                                 <Form.Text id='password'></Form.Text>
                             </Form.Group>
                             <Form.Group className={styles.checkboxLogin}>
