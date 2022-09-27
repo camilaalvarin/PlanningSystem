@@ -1,57 +1,54 @@
-// import {useState} from 'react'
-// import { useLocation } from 'react-router-dom'
+import {useState} from 'react'
 import styles from '../Navbar/Navbar.module.css'
 import Dashboard from '../Svg/Dashboard'
 import Schedule from '../../assets/Calendar.svg'
 import Inbox from '../../assets/Message.svg'
 import Payment from '../../assets/Wallet.svg'
+import { NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
-    // const navLinkStyle = ({ isActive }) => {
-    //     return {
-    //         color: isActive ? '#F60C87' : '#797D80'
-    //     }
-    // }
-    // const location = useLocation().pathname;
 
-    // const activeTag = window.location.href;
-    // useEffect(() => {
-    //     const tags = document.querySelectorAll('styles.tag');
-    //     tags.forEach(link => {
-    //         if(link.href === activeTag){
-    //             link.classList.add({tagActive});
-    //         }
-    //     })
-    // },[])
-    // const tagActive = {color:'blue'}
-
-    
-    // const [bg, setColor] = useState('#797D80');
-
-    // let ChangeFill = () => {
-    //     setColor('blue');
-    // }
+//funcion de botones
+const [dashboard, setDashboard] = useState(true);
+const [schedule, setSchedule] = useState(false);
+const [inbox, setInbox] = useState(false);
+const [payment, setPayment] = useState(false);
     
 
   return (
     <div>
         <nav className={styles.navStyle}>
-            <a href='/dashboard' className={`${styles.divTag} ${styles.tag}`}>
+            <NavLink to='/dashboard' 
+                onClick={()=> {setDashboard(true); setSchedule(false); setInbox(false); setPayment(false)}}
+                className={`${styles.divTag} ${styles.tag}`}>
                 <Dashboard fill='#F60C87' id="dashboard"
-                alt="Dashboard" 
-                 />Dashboard</a>
+                alt="Dashboard"/>
+                Dashboard
+            </NavLink>
             
-            <a href='/schedule' className={`${styles.divTag} ${styles.tag}`}>
+            <NavLink to='/schedule' 
+                onClick={()=> {setDashboard(false); setSchedule(true); setInbox(false); setPayment(false)}}
+                className={`${styles.divTag} ${styles.tag}`}>
                 <img src={Schedule} className='img'
-                alt="Schedule" />Schedule</a>
+                alt="Schedule" />
+                Schedule
+            </NavLink>
             
-            <a href='/inbox' className={`${styles.divTag} ${styles.tag}`}>
+            <NavLink to='/inbox' 
+                onClick={()=> {setDashboard(false); setSchedule(false); setInbox(true); setPayment(false)}}
+                className={`${styles.divTag} ${styles.tag}`}>
                 <img src={Inbox} 
-                alt="Inbox" />Inbox</a>
+                alt="Inbox" />
+                Inbox
+            </NavLink>
             
-            <a href='/payment' className={`${styles.tagEnd} ${styles.tag}`}>
+            <NavLink to='/payment' 
+                onClick={()=> {setDashboard(false); setSchedule(false); setInbox(false); setPayment(true)}}
+                className={`${styles.tagEnd} ${styles.tag}`}>
                 <img src={Payment} 
-                alt="Payment" />Payment</a>
+                alt="Payment" />
+                Payment
+            </NavLink>
         </nav>
     </div>
   )

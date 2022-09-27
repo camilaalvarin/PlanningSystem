@@ -12,11 +12,10 @@ body{
   list-style: none;
   display: flex;
   justify-content: space-evenly;
-  width: 80%;
+  width: 100%;
   align-content: stretch;
   align-items: center;
-  margin: auto;
-  padding: 2rem;
+  padding: 1.75rem;
   border-radius: 1rem;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.08);
 }

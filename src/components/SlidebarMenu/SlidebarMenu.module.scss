@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.father{
+    margin-right: 35px;
+    width: 100%;
+    height: 100vh;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: 0px 0px 0px 0px;
+    
+    /* Values/White */
+    background: #FFFFFF;
+    /* Standart Shadow */
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 0px 16px 16px 0px;
+    .box1{
+        height: 115px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        .logo1{
+            padding-left: 2rem;
+            width: 4.5rem;
+        }
+        .logo2{
+            width:8.5rem;
+            padding-right: 2rem;
+            padding-left: 0.5rem;
+        }
+    }
+    .box2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .item1{
+            
+
+            text-decoration: none;
+            border: none;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            /* Active */
+            /*width: 250px;*/
+            width: 100%;
+            height: 2.2rem;
+
+            /* Colours/Main Blue */
+            background: #F60C87;
+            .icon1{
+                /* Advertisement */
+
+                width: 24px;
+                height: 24px;
+
+                /* Values/White */
+
+                color: #FFFFFF;
+            }
+            .itemWhite{
+                
+                /* Notification */
+
+                width: 22.36px;
+                height: 24px;
+                /* Values/Jade */
+                color: #FFFFFF;
+            }
+            .title1{
+                /* Bold/CTA, Emphasis */
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+                /* or 125% */
+                letter-spacing: 0.1px;
+
+                width: 114px;
+                height: 20px;
+                text-align: start;
+                margin-bottom: 0px;
+                font-size: 0.70em;
+                /* identical to box height, or 125% */
+            
+            
+                /* Values/White */
+            
+                color: #FFFFFF;
+            }
+            .itemHome{
+                
+                padding-left: 0.6rem;
+                padding-right: 0.6rem;
+                height: 1rem;
+            }
+        }
+        .items{
+            text-decoration: none;
+            border: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            /* Active */
+            /*width: 250px;*/
+            width: 100%;
+            height: 2.2rem;
+
+            /* Colours/Main Blue */
+            background: #FFFFFF;
+            .itemBlack{
+                /* Notification */
+
+                padding-left: 0.6rem;
+                padding-right: 0.6rem;
+                height: 1rem;
+                /* Values/Jade */
+                color: #001A24;
+
+            }
+            .titleBlack{
+                  /* Bold/CTA, Emphasis */
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+                /* or 125% */
+                letter-spacing: 0.1px;
+
+                width: 114px;
+                height: 20px;
+                text-align: start;
+                margin-bottom: 0px;
+                font-size: 0.70rem;
+            
+                /* Values/  black */
+            
+                color: #001A24;
+            }
+        }
+        
+        .lastItem{
+            margin-bottom: 101px;
+        }
+
+        .line{
+            margin-top: 4rem;
+            /* Div 2 */
+            /*width: 250px;*/
+            width: 100%;
+            height: 0px;
+
+            /* Values/Light Gray */
+            border: 1.7px solid #EAEBEE;
+
+        }
+        .settings{
+            padding-left: 1.5rem;
+            padding-top: 1rem;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 0.75rem;
+            line-height: 19px; 
+            /* or 136% */
+            letter-spacing: 0.5px;
+
+            /* Values/Dark */
+            color: #797D80;
+
+
+        }
+      
+
+
+    }
+
+}
