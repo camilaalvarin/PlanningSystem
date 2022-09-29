@@ -1,11 +1,17 @@
 .row{
     margin:0px;
+    padding: 0px;
 
 }
 .col{
     padding:0px;
 }
 
-.col-lg-2{
+.col-lg-2 {
     padding: 0px;
+    margin: 0px;
+}
+.col-lg-8{
+    padding: 0px;
+    margin: 0px;
 }

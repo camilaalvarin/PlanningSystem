@@ -22,7 +22,7 @@ const Dashboard = () => {
                         <Navbar/>
                     </Row>
                     <Row>
-                        <Col log={7}>
+                        <Col lg={8}>
                             <Row>
                                 <HelloAron/>
                             </Row>
@@ -30,7 +30,7 @@ const Dashboard = () => {
 
                             </Row>
                         </Col>
-                        <Col log={3}>
+                        <Col lg={4}>
                             <Row>
 
                             </Row>
