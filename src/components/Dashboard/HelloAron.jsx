@@ -9,24 +9,21 @@ const HelloAron = () => {
                 <h3 className={styles.aron}>Hellow Aron!</h3>
                 <img src={Person} className={styles.person}></img>
             </div>
-            <div>
-                <h4></h4>
-                <h4></h4>
+            <div className={styles.box}>
+                <h4 className={styles.titlesBox}>Position</h4>
+                <h4 className={`${styles.titlesBox} ${styles.subtitlesBox}`}>Front-End</h4>
             </div>
-            <img></img>
-            <div>
-                <h4></h4>
-                <h4></h4>
+            <div className={styles.box}>
+                <h4 className={styles.titlesBox}>Departament</h4>
+                <h4 className={`${styles.titlesBox} ${styles.subtitlesBox}`}>Development</h4>
             </div>
-            <img></img>
-            <div>
-                <h4></h4>
-                <h4></h4>
+            <div className={styles.box}>
+                <h4 className={styles.titlesBox}>Subordinates</h4>
+                <h4 className={`${styles.titlesBox} ${styles.subtitlesBox}`}>2</h4>
             </div>
-            <img></img>
-            <div>
-                <h4></h4>
-                <h4></h4>
+            <div className={styles.box}>
+                <h4 className={styles.titlesBox}>Pending Tasks Today</h4>
+                <h4 className={`${styles.titlesBox} ${styles.subtitlesBox}`}>3</h4>
             </div>
             
         </div>

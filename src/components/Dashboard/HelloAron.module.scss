@@ -34,4 +34,25 @@
         }
 
     }
+    .box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+        border-bottom: 1px solid #E5EEF2;
+        .titlesBox{
+            margin-bottom: 0px;
+            /* Bold/CTA, Emphasis */
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 20px;
+            /* or 125% */
+            letter-spacing: 0.1px;
+        }
+        .subtitlesBox{
+            color:#F60C87
+        }
+    }
 }
