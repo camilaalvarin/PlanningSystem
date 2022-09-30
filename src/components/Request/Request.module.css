@@ -7,7 +7,8 @@
     background-color: #F60C87;
     border-radius: 1rem;
     width: 100%;
-    height: 199px;
+    height: 13.5rem;
+    padding: 0px !important;
 }
 .title{
     padding: 1.3rem;
@@ -21,32 +22,34 @@
     display: flex;
     flex-direction: column;
     background-color: #ffff;
-    width: 100%;
-    margin: auto;
+    width: 85%;
     border-radius: 1rem;
-}
-.subs{
-   
-    font-size: 12px;
+    margin-bottom: 1.3rem;
 }
 .box1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     border-bottom: 2px solid #E5EEF2;
 }
 .box2{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        justify-content: space-between;    
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+}
+.box4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 .titleBox{
     margin-bottom: 0px;
@@ -55,7 +58,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 0.75rem;
-    line-height: 20px;
     /* or 125% */
     letter-spacing: 0.1px;
 }
@@ -64,14 +66,64 @@
     font-style: normal;
     font-weight: 300;
     font-size: 0.75rem;
-    line-height: 15px;
     margin-bottom: 0px;
 
     color: #121317;
 }
+.subtitleBox2{
+    padding-left: 0.75rem;
+    margin-bottom: 0px;
+    /* Bold/System Message Bold */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    /* Main/Other Functions/Green */
+    color: #6FDCCF;
+
+
+}
 .boxWhite{
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: #ffffff;
     width: 100%;
     border-radius: 0px 0px 1rem 1rem;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.08);
+}
+.lastBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.lastTitleBox{
+    margin-bottom: 0px;
+    /* Bold/System Message Bold */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+
+    /* Main/Magenta Dark */
+    color: #EE268F;
+}
+.lastIcon{
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+.lastIcon2{
+    padding-right: 1.5rem;
+    height: 1.2rem;
 }
