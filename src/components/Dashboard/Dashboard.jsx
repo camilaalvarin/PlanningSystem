@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css' ;
 import { Col, Container, Row } from 'react-bootstrap';
 import { Request } from '../Request/Request';
 import HelloAron from './HelloAron';
+import CompanyNews from './CompanyNews';
 
 
 const Dashboard = () => {
@@ -27,7 +28,7 @@ const Dashboard = () => {
                                 <HelloAron/>
                             </Row>
                             <Row>
-
+                                <CompanyNews/>
                             </Row>
                         </Col>
                         <Col lg={5}>

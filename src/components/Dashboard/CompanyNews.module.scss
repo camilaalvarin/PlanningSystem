@@ -1,0 +1,95 @@
+.father{
+    margin-top: 1.5rem;
+    /* Values/White */
+    background: #FFFFFF;
+    /* Standart Shadow */
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.08);
+    border-radius: 1rem;
+    .boxCompany{
+        display: flex;
+        align-items: center;
+        height: 3.5rem;
+        /* Main/Yellow */
+        background: #FFDE25;
+        border-radius: 16px 16px 0px 0px;
+        .titleCompany{    
+            padding-left: 1rem;
+            margin-bottom: 0px;
+            /* Bold/Subtitle */
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.3rem;
+            line-height: 30px;
+            /* identical to box height, or 136% */
+            letter-spacing: 0.15px;
+            /* Values/Soot */
+            color: #121317;
+
+        }
+
+    }
+    .articlesAndScroll{
+        display: flex;
+        flex-direction: row;
+        .articles{
+            .article{
+                .boxTitleArticle{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    padding: 1rem;
+                    .titleArticle{
+                        margin-bottom: 0px;
+                        /* Bold/CTA, Emphasis */
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 1rem;
+                        line-height: 20px;
+                        /* identical to box height, or 125% */
+                        letter-spacing: 0.1px;
+
+                        /* Values/Soot */
+                        color: #121317;
+                    }
+                    .subtitleArticle{
+                        margin-bottom: 0px;
+                        /* Bold/System Message Bold */
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 15px;
+                        /* identical to box height, or 125% */
+                        text-align: right;
+
+                        /* Values/Dark */
+                        color: #797D80;
+
+
+                    }
+                }
+                .textArticle{
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                    margin-bottom: 1
+                    .5rem;
+                    /* Regular/Description, Menu */
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 0.85rem;
+                    line-height: 19px;
+                    /* or 136% */
+                    letter-spacing: 0.5px;
+
+                    /* Values/Soot */
+                    color: #121317;
+
+
+                }
+            }
+        }
+    }
+}

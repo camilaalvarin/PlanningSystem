@@ -34,6 +34,9 @@
         }
 
     }
+    .line{
+        border-bottom: 2px solid #E5EEF2;
+    }
     .box{
         display: flex;
         flex-direction: row;
@@ -42,7 +45,6 @@
         padding-bottom: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;
-        border-bottom: 2px solid #E5EEF2;
         .titlesBox{
             margin-bottom: 0px;
             /* Bold/CTA, Emphasis */
